@@ -1,0 +1,113 @@
+/* ========== Common Table Style ========== */
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+    border-color: white;
+  }
+  
+  /* ========== Header, Subheader, Footer ========== */
+  td.header {
+    background-color: #ffd257;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+  }
+  
+  td.subheader {
+    background-color: #fe8d7e;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+  }
+  
+  td.footer {
+    background-color: #ff9a48;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+  }
+  
+  /* ========== Content Sections ========== */
+  td.home,
+  td.portfolio,
+  td.contact {
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 130px;
+    background-color: #ffce96;
+    font-family: "Arial";
+  }
+  
+  /* ========== Useful Links Style ========== */
+  ul.links {
+    padding-left: 20px;
+    font-family: "Arial";
+  }
+  
+  ul.links a:link,
+  ul.links a:visited {
+    color: rgb(240, 252, 0);
+    text-decoration: none;
+  }
+  
+  ul.links a:hover,
+  ul.links a:active {
+    color: rgb(255, 149, 1);
+    text-decoration: none;
+  }
+  
+  /* ========== Table Row Alternating Colors for Portfolio/Trivia Tables ========== */
+  th, td {
+    border-top: 1px solid #d39e00;
+    border-bottom: 1px solid #d39e00;
+    padding: 12px;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+  }
+  
+  th {
+    background-color: #d39e00;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fcf6f0;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  /* ========== Centered Title (if needed) ========== */
+  h1 {
+    text-align: center;
+  }
+  
+  /* ========== Trivia Page Specific ========== */
+  body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .planet-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Planet Weight Quiz</title>
+  <link rel="stylesheet" href="mypage.css" />
+</head>
+<body>
+  <h1>What Would You Weigh on Another Planet?</h1>
+
+  <p>Enter your Earth weight (kg):</p>
+  <input type="number" id="weightInput" placeholder="e.g. 60" />
+
+  <p>Select a planet:</p>
+  <div id="planetButtons">
+    <button class="planet-button" data-gravity="0.38">Mars</button>
+    <button class="planet-button" data-gravity="0.165">Moon</button>
+    <button class="planet-button" data-gravity="0.91">Venus</button>
+    <button class="planet-button" data-gravity="2.34">Jupiter</button>
+  </div>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <div id="result"></div>
+
+  <script src="trivia.js"></script>
+</body>
+</html>
